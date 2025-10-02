@@ -1,0 +1,103 @@
+body {
+  background-color: azure;
+  font-family: 'TASA Orbiter', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  height: 65px;
+  background-color: black;
+  color: white;
+  padding: 0 20px;
+}
+
+nav ul li {
+  padding: 0 12px;
+}
+
+.brand img {
+  width: 45px;
+  padding-right: 8px;
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+  font-size: 1.3rem;
+}
+
+.container {
+  min-height: 70vh;
+  background-color: black;
+  color: white;
+  display: flex;
+  width: 70%;
+  border-radius: 12px;
+  padding: 34px;
+  margin: 23px auto;
+  background-size: cover;
+}
+
+.songitemcontainer {
+  margin: 40px 0;
+}
+
+.songitem {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px 0;
+  height: 50px;
+  border-radius: 40px;
+  background-color: rgb(14, 6, 0);
+  color: white;
+}
+
+.songitem img {
+  width: 50px;
+  margin: 0 23px;
+  border-radius: 50px;
+}
+
+.songname {
+  flex: 1;
+}
+
+.timestamp {
+  margin: 0 23px;
+}
+
+.timestamp i {
+  cursor: pointer;
+}
+
+.bottom {
+  position: sticky;
+  height: 100px;
+  background-color: rgb(14, 1, 1);
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.icons i {
+  cursor: pointer;
+  margin: 0 10px;
+}
+
+#myprogressBar {
+  width: 85vh;
+  cursor: pointer;
+}
+
+.songinfo img {
+  opacity: 0;
+  transition: opacity 1s ease-in;
+}
